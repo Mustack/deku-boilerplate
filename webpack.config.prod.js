@@ -50,8 +50,8 @@ module.exports = {
     ]
   },
   plugins: [
-    new webpack.HotModuleReplacementPlugin(),
-    new ExtractTextPlugin('app.css'),
+      new webpack.optimize.DedupePlugin(),
+      new webpack.optimize.UglifyJsPlugin()
   ],
   resolve: { fallback: path.join(__dirname, 'node_modules') },
   resolveLoader: { fallback: path.join(__dirname, 'node_modules') }
