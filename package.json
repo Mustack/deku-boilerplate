@@ -3,6 +3,11 @@
   "version": "0.0.1",
   "author": "Jean-Luc Martin",
   "license": "MIT",
+  "scripts": {
+    "test": "karma start",
+    "lint": "eslint -c .eslintrc src test",
+    "build:prod": "NODE_ENV=production webpack --config webpack.config.prod.js"
+  },
   "devDependencies": {
     "babel-core": "^5.1.11",
     "babel-eslint": "^4.1.3",
