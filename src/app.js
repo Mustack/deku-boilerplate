@@ -1,4 +1,3 @@
-import element from 'virtual-element';
 import {render, tree} from 'deku';
 import Root from './root';
 
