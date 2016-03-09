@@ -1,2 +1,2 @@
 'use strict';
-exports.depends = ['watch'];
+exports.depends = ['serve'];
