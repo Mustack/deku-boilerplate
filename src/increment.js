@@ -1,5 +1,5 @@
 function increment(number) {
-    return number + 2;
+    return number + 1;
 }
 
 export default increment;
