@@ -3,9 +3,9 @@ var gulp = require('gulp');
 var config = require('./config');
 
 function watch() {
-    gulp.watch(config.src.scripts, ['lint', 'test']);
+    gulp.watch(config.src.scripts, ['lint']);
 }
 
-watch.depends = ['lint', 'test', 'serve'];
+watch.depends = ['lint'];
 
 module.exports = watch;

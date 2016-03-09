@@ -1,3 +1,4 @@
+import element from 'virtual-element';//eslint-disable-line
 import {render, tree} from 'deku';
 import Root from './root';
 

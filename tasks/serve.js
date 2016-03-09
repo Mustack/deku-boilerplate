@@ -34,4 +34,6 @@ function serve() {
     });
 }
 
+serve.depends = ['watch'];
+
 module.exports = serve;
